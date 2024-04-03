@@ -60,6 +60,7 @@ function copyToInputOnClick(element) {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*  Get Movie                                            */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 function getMovie() {
   const movieFound = movies.find(movie => movie.title.trim().toLowerCase() === searchInput.value.trim().toLowerCase());
 
